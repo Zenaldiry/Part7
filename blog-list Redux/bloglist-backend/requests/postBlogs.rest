@@ -1,0 +1,15 @@
+POST http://localhost:3001/api/blogs
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImJyYWQiLCJpZCI6IjY4YmY3YWY3NDNlMGRhY2M0NDIwZDRiYyIsImlhdCI6MTc1NzM3OTUxMn0.Yq4k3ggh_CuCUQDbl-NIRptnsIQZecH8wmw_QjPQTFY
+Content-Type: application/json
+
+{
+  "title": "A cartoon intro to WebAssembly",
+  "author": "Lin Clark",
+  "url": "https://hacks.mozilla.org/2017/02/a-cartoon-intro-to-webassembly/",
+  "likes": 3250,
+  "comments": [
+    "Lin Clark's cartoon intros are the best way to learn complex topics.",
+    "This made WebAssembly click for me.",
+    "Explains the 'why' behind Wasm, not just the 'what'."
+  ]
+}
